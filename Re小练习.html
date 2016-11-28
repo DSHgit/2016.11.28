@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+<script>
+
+//var str = '今天天气不错，我们去户外运动吧';
+//var s = str.replace(/今天|我们/g,function($0){
+//	var temp = '';
+//	for(var i=0;i<$0.length;i++){
+//		temp += '*';
+//		
+//	}
+//	return temp;
+//});
+//
+//console.log(s);
+var str = '22ee555ee44444';
+str.replace(/(\d)\1+/g,function($0,$1){
+	console.log($1);	
+})
+
+</script>
+</body>
+</html>
